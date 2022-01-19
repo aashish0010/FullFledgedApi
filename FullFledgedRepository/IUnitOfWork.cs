@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FullFledgedRepository
 {
-    public class IUnitOfWork
+    public interface IUnitOfWork
     {
+        
     }
 }

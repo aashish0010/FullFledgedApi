@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FullFledgedRepository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
+        //public JwtAuthService jwt => new JwtAuthService();
     }
 }
