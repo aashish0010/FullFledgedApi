@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FullFledgedRepository.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,6 @@ namespace FullFledgedRepository
     public class UnitOfWork : IUnitOfWork
     {
         //public JwtAuthService jwt => new JwtAuthService();
+        //public TokenGenerate token => new TokenGenerate();
     }
 }
