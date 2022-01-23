@@ -34,6 +34,7 @@ namespace FullFledgedApi.Controllers
         public IActionResult Register(UserLogin userLogin)
         {
             var token = _tokenInterface.TokenGenerateString(userLogin);
+            
             var viewPassword = new UserRegister();
             
             var user = _context.userRegisters.FirstOrDefault(x=>x.UserName == userLogin.UserName);
